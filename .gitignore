@@ -1,0 +1,19 @@
+# 虚拟环境与缓存
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# 敏感：浏览器 Cookie（勿提交仓库）
+cookies.txt
+
+# 本地/密钥
+.env
+.env.*
+
+# 编辑器
+.idea/
+.vscode/
+*.swp

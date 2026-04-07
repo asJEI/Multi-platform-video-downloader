@@ -1,0 +1,12 @@
+# Streamlit Web UI
+streamlit>=1.39.0,<2
+
+# Video extraction and download (wraps yt-dlp CLI; FFmpeg merges when installed)
+yt-dlp>=2024.8.0
+
+# Thumbnail download (downloader.download_thumbnail)
+requests>=2.31.0
+Pillow>=10.0.0
+
+# Optional: pin compatible typing if needed on older Python
+# typing-extensions>=4.12.0; python_version < "3.11"

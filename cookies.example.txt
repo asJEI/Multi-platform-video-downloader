@@ -1,0 +1,20 @@
+# Netscape HTTP Cookie File
+# ---------------------------------------------------------------------------
+# 本文件仅为「格式示例」，其中的域名与 Cookie 值为占位符，不能用于真实解析/下载。
+#
+# 正确用法：
+#   1. 在浏览器安装扩展「Get cookies.txt LOCALLY」（或同类可导出 Netscape 格式的工具）
+#   2. 打开 bilibili.com、douyin.com 等目标站点，按需登录并浏览几条内容
+#   3. 导出为 Netscape 格式的 cookies
+#   4. 将导出内容保存为项目根目录的 cookies.txt
+#      （或在 config.py 中修改 COOKIES_FILE 指向你的文件路径）
+#
+# 单行格式（字段之间为 Tab，不要用空格代替）：
+#   domain  FLAG  path  secure  expiration  name  value
+#
+# 合并多站点：可把多个站点导出的「数据行」追加到同一文件，只保留文件开头一份本说明或
+# 标准 Netscape 头即可，勿重复整段注释块。
+# ---------------------------------------------------------------------------
+
+# 以下为语法演示（无效 Cookie，请删除并替换为扩展导出的真实行）：
+.example.invalid	FALSE	/	FALSE	0	EXAMPLE_COOKIE	replace_with_real_export
