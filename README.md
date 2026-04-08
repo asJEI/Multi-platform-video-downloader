@@ -1,7 +1,7 @@
 # 多平台视频下载器（Streamlit + yt-dlp + FFmpeg）
 
 注意：本项目全程使用Cursor生成！！!
-具体过程可以查看：www.hokkai2005.online
+具体开发过程可以查看：www.hokkai2005.online/archives/96
 
 一个干净、模块化的 Streamlit Web 应用：粘贴链接、解析元数据、选择清晰度、下载并自动合并音视频（如需）。
 
